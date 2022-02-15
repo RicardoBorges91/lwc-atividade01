@@ -1,0 +1,29 @@
+<template>
+
+	<!-- 1- Crie um componente que exiba os seguintes dados cod, name, phone, email, 
+rating (valores aleatórios) vindo do arquivo js. 
+O componente deve ter um botão chamado troca dados que altere os valores
+ dos campos descritos acima.
+-->
+<lightning-card>
+	<div class="slds-text-align_center">
+		<h1 class="slds-text-heading_large">
+			ATIVIDADE - 01
+		</h1>
+	</div>
+	<div class="slds-m-around_medium">
+
+		<p>cod = {cod} </p>
+		<p>	name = {name}</p>
+		<p>	phone = {phone}</p>
+		<p>	email = {email}</p>
+		<p>	rating = {rating}</p>
+
+	</div>
+</lightning-card>
+
+
+	<lightning-button variant="brand-outline" label="TROCA 1" title="Altera visible" onclick={trocarDado1}
+		class="slds-m-left_x-small"></lightning-button>
+
+</template>
